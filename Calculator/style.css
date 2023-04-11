@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.center{
+    text-align: center;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.button{
+    background-color: rgb(158, 155, 155);
+    width: 55px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    width: 240px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 8px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
